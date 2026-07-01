@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0104/v1
+canonical_location: https://kanripo.org/bkk/KR6d0104/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華問答
+  identifiers:
+    alt_id:
+    - T85n2752
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2752.xml
+    old_id: T85n2752
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0104_000.yaml, hash: 'sha256:7edb1a8ec5c50a510edbcaccae39950f8a073cf9e73f8fb6de804ae7fd4c015f'}
+  - {seq: 1, filename: KR6d0104_001.yaml, hash: 'sha256:b41814f028d331eef1984a6bf8304c62eae997090198496c3385b6051f19db64'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0104_001.markers.yaml, hash: 'sha256:c4545794e8823ed8eb77d9e0d43e602feecf760bbcd9adc2e5a3a728957ab747'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0104_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8874
+  label: 法華問答
+  type: juan
+  level: 1
+hash: sha256:f8514a48707ec507ee6e73c11734052e033a574620925ff8dc044cbc0a8ecfef
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
